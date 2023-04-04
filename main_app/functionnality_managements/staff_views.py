@@ -130,7 +130,6 @@ def send_employer_notification(request):
         return JsonResponse(msg)
 
 
-
 @csrf_exempt
 def send_admin_notification(request):
     id = request.POST.get('admin_id')
