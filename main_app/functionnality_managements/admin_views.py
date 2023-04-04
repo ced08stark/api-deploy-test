@@ -302,7 +302,7 @@ def all_applicants(request):
         return JsonResponse(msg)
 
 
-
+"""commm"""
 def get_applicant_by_id(request, applicant_id):
     if request.method == 'GET':
         applicant = Applicant.objects.get(id=applicant_id)
